@@ -1,0 +1,41 @@
+# Mantavya Anand
+# EnTC - A3
+# 24070123059
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    float x, y;
+   
+    cout << "Enter the x coordinate: ";
+    cin >> x;
+   
+    cout << "Enter the y coordinate: ";
+    cin >> y;
+
+    if (x == 0 && y == 0) {
+        cout << "The point is at the Origin." << endl;
+    }
+    else if (x == 0) {
+        cout << "The point is on the Y-axis." << endl;
+    }
+    else if (y == 0) {
+        cout << "The point is on the X-axis." << endl;
+    }
+    else if (x > 0 && y > 0) {
+        cout << "The point is in the First Quadrant." << endl;
+    }
+    else if (x < 0 && y > 0) {
+        cout << "The point is in the Second Quadrant." << endl;
+    }
+    else if (x < 0 && y < 0) {
+        cout << "The point is in the Third Quadrant." << endl;
+    }
+    else {
+        cout << "The point is in the Fourth Quadrant." << endl;
+    }
+   
+    return 0;
+}
+
