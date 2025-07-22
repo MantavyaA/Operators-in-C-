@@ -4,10 +4,8 @@ Aim : To study and implement Operators in C++
 
 Software Used : VS Code
 
-Theory : This program takes two float inputs representing the x and y coordinates of a point.
-It uses conditional (if-else) statements to determine the point's location on the coordinate plane.
-The program checks whether the point lies on an axis, in one of the four quadrants, or at the origin.
-Based on the condition met, an appropriate message is displayed using cout.
+Theory : This program accepts two float inputs representing the x and y coordinates of a point on a 2D plane. It uses conditional (if-else) statements to evaluate the position of the point. The logic checks whether the point lies exactly at the origin, on either the X-axis or Y-axis, or within one of the four quadrants. If both x and y are zero, the point is at the origin. If only x is zero, the point lies on the Y-axis, and if only y is zero, it lies on the X-axis. If both x and y are non-zero, the program determines whether the point is in Quadrant I, II, III, or IV based on the signs of the coordinates. An appropriate message is then displayed using cout to indicate the exact location of the point.
+
 
 Algorithm :
 
