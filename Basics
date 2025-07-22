@@ -20,3 +20,15 @@ int main() {
 
     return 0;
 }
+
+
+// OUTPUT :
+
+Addition: 40
+Subtraction: 10
+Multiplication: 375
+Division: 1
+Is a greater than b? 1
+Is a > 0 and b > 0? 1
+
+
