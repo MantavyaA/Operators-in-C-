@@ -39,3 +39,27 @@ int main() {
     return 0;
 }
 
+
+
+// RESULTS : 
+
+Input: x = 0, y = 0
+Output: The point is at the Origin.
+
+Input: x = 0, y = 5
+Output: The point is on the Y-axis.
+
+Input: x = -4, y = 0
+Output: The point is on the X-axis.
+
+Input: x = 3, y = 2
+Output: The point is in the First Quadrant.
+
+Input: x = -2, y = 4
+Output: The point is in the Second Quadrant.
+
+Input: x = -5, y = -7
+Output: The point is in the Third Quadrant.
+
+Input: x = 6, y = -3
+Output: The point is in the Fourth Quadrant.
